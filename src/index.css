@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
 }
+
+blockquote {
+    margin: 0;
+    padding-left: 1.3rem;
+    border-left: 0.8rem #666 solid;
+}
+
+pre {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+li {
+    margin-left: 1.2rem;
+}
+
+td, th, tr{
+    padding: 5px;
+    border: 1px solid #666;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+@media (max-width: 480px) { html { font-size: 13px } }
+
+@media (max-width: 360px) { html { font-size: 11px } }
